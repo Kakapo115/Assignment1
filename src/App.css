@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-style
+{
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  border-radius: 3px; 
+  height: auto; 
+  width: 100%;    
+}
+
+@media only screen and (max-width: 900px) {
+  #Floatin {
+    float: none;
+    margin: 5px;
+    max-width:100%;height:auto;
+  }
+}
+
+#Floatin {
+  float: right;
+  margin: 10px;
+  margin-top: 20px;
+  height: auto;
+  width: 600px;
+}
+
+#header_logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-right: 25px;
+  padding: 2px;
+  margin-top: 4px;
+}
+
+#header_text {
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.nav-link:active {
+  color: whitesmoke;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+#about {
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(95, 95, 95);
+}
+
+.card-body {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 20px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  width: 100%;
+  margin-top: auto;
+}
+
+#FooterImage {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+#warning {
+  text-align: center;
+}
